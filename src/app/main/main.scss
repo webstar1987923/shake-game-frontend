@@ -1,0 +1,189 @@
+html {
+  height: 100%;
+}
+
+body {
+	background: url(../assets/images/background.jpg) center;		
+	width: 100%;	
+	background-size:100% 100%;
+	min-height: 100%;
+}
+
+.winners-box.expanded {
+	height: 100vh;
+	z-index: 9999;
+}
+
+.winners-box {
+	text-align: center;
+	border-bottom: 5px dotted #eee;
+	padding:  0;
+	position: absolute;
+	top: 0;
+	height: 30vh;
+	transition: all 1s ease;
+	background: #fff;
+	overflow: hidden;
+	padding: 0 0 20px 0;
+
+	.arrows-up {
+		background: url('../assets/images/arrow_up.png') center no-repeat;
+		width: 25px;
+		height: 25px;
+		background-size: 100%;
+		margin: 5px auto;
+	}
+
+	.title1 {
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	.winners-list {
+		overflow: hidden;
+
+		.winner-item {
+			text-align: left;
+			position: relative;
+			margin: 10px 0;
+
+			.info-container {
+				margin-left: 10px;
+
+				.winner-name {
+					font-size: 18px;
+					text-transform: capitalize;
+				}
+
+				.winner-time {
+					font-size: 14px;
+					color: #cecece;
+					font-weight: bold;
+				}
+				
+				.winner-won {
+					font-size: 20px;
+					font-weight: bold;
+				}
+			}
+			
+			img.product-image {
+				width: 75px;
+				position: absolute;
+				right: 10px;
+				bottom: 0;
+			}
+
+			img.user-image {
+				width: 50px;
+				margin: 0 0 0 10px;
+			}
+		}
+	}
+}
+
+.current-spin-box {
+	margin: 30px 0;
+	position: absolute;
+	top: 30vh;
+	height: 30vh;
+
+	h1 {
+		font-size: 16px;
+		margin: 0 0 0 10px;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+
+	img.product-image {
+		width: 85%;
+		padding: 15px;
+		border: 1px solid #eee;
+		margin: 15px 0 0 10px;
+	}
+
+	.product-content {
+		font-size: 12px;
+		margin: 13px 0 0 0;
+		line-height: 15px;
+	}
+
+	.spin-to-win-button {
+		background: #ffbb04;
+		margin: 20px 0 0 0;
+		font-size: 20px;
+		border-radius: 7px;
+		font-weight: bold;
+		padding: .75rem 2rem .75rem 2rem;
+		box-shadow: 3px 4px rgba(1,1,1,.15);
+	}
+
+	.pad-right { padding-right: 10px !important; }
+}
+
+.upcoming-box.expanded {
+	top: 0vh;
+	height: 100vh;
+	z-index: 9999;
+}
+
+.upcoming-box {
+	text-align: center;
+	border-top: 5px dotted #eee;
+	transition: all 1s ease-out;
+	background: #fff;
+	padding: 5px 0 30px 0;
+	position: absolute;
+	height: 30vh;
+	top: 70vh;
+
+	
+	.title2 {
+		text-transform: uppercase;
+		text-align: center;
+		margin: 5px 0 0 0;
+	}
+
+	.upcoming-items {
+		margin: 10px 0 0 0;
+	}
+
+	.arrows-down {
+		margin: 5px auto 0 auto;
+		width: 25px;
+		position: absolute;
+		bottom: 5px;
+		left: 50%;
+		margin-left: -12.5px;
+
+		img {
+			width: 100%;
+		}
+	}
+
+	.upcoming-item {
+		font-size: 12px;
+		text-align: left;
+
+		.product-image {
+			padding: 0 0 0 10px;
+		}
+
+		.product-buttons {
+			margin-right: 0;
+		}
+
+		.product-description {
+			padding: 0 10px;
+		}
+
+		.time-button {
+			padding: 5px 10px;
+			font-size: 16px;
+			font-weight: bold;
+			border-radius: 7px;
+			box-shadow: 3px 4px rgba(1,1,1,.15);
+			background: #51cdf1;
+		}
+	}
+}

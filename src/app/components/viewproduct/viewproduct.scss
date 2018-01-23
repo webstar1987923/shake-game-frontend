@@ -1,0 +1,38 @@
+.view-product-box {
+	margin: 0;
+	padding: 15px 0 20px 0;
+	border-bottom: 5px dotted #eee;
+
+	h1 {
+		font-size: 16px;
+		margin: 0 0 0 10px;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+
+	img.product-image {
+		width: 85%;
+		padding: 15px;
+		border: 1px solid #eee;
+		margin: 15px 0 0 10px;
+	}
+
+	.product-content {
+		font-size: 12px;
+		margin: 13px 0 0 0;
+		line-height: 15px;
+	}
+
+	.spin-to-win-button {
+		background: #51cdf1;
+		margin: 20px 0 0 0;
+		font-size: 20px;
+		border-radius: 7px;
+		font-weight: bold;
+		padding: .75rem 2rem .75rem 2rem;
+		box-shadow: 3px 4px rgba(1,1,1,.15);
+	}
+
+	.pad-right { padding-right: 10px !important; }
+}
+
